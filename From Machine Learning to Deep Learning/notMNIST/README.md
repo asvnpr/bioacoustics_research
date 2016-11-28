@@ -8,4 +8,4 @@ I'm including the script to download and extract the dataset here. You'll probab
 
 or just use pip if python 2.X is your default and you're using python 2.X for this course.
 
-Afterwards you can run **download-extract.py** (I set it up to run python3 though so be aware of that.).
+Afterwards you can run **download-extract-load.py** (I set it up to run python3 though so be aware of that.).
