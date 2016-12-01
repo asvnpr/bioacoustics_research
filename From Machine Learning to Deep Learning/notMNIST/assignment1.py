@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env jupyter
 from __future__ import print_function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,7 +50,7 @@ def maybe_download(filename, expected_bytes, force=False):
 train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
 test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
 
-#extract the dataset tars we download into A-J directories (for each class). we'll have two datasets 
+#extract the dataset tars we download into A-J directories (for each class). we'll have two datasets
 
 num_classes = 10
 np.random.seed(133)
@@ -79,9 +79,9 @@ def maybe_extract(filename, force=False):
 train_folders = maybe_extract(train_filename)
 test_folders = maybe_extract(test_filename)
 
-"""now that we've each extracted the dataset and their respective classes, we'll load and store them them into a manageable format 
-so we can deal with them with an average computer. we'll store each class on disk, deal with them independently, and merge them into 
-a single dataset when we're done processing/training with them. we'll convert the entire dataset into a float 3D array [image_index, x, y]. 
+"""now that we've each extracted the dataset and their respective classes, we'll load and store them them into a manageable format
+so we can deal with them with an average computer. we'll store each class on disk, deal with them independently, and merge them into
+a single dataset when we're done processing/training with them. we'll convert the entire dataset into a float 3D array [image_index, x, y].
 The dataset will be initialized to have ~0 mean and a std dev of ~0.5 (so we initially have relatively uncertain results from our trained classifier)
 Some errors may occur reading some images, but we'll ignore them. """
 
@@ -98,7 +98,7 @@ def load_letter(folder, min_num_images):
   for image in image_files:
     image_file = os.path.join(folder, image)
     try:
-      image_data = (ndimage.imread(image_file).astype(float) - 
+      image_data = (ndimage.imread(image_file).astype(float) -
                     pixel_depth / 2) / pixel_depth
       if image_data.shape != (image_size, image_size):
         raise Exception('Unexpected image shape: %s' % str(image_data.shape))
@@ -106,17 +106,17 @@ def load_letter(folder, min_num_images):
       num_images = num_images + 1
     except IOError as e:
       print('Could not read:', image_file, ':', e, '- it\'s ok, skipping.')
-    
+
   dataset = dataset[0:num_images, :, :]
   if num_images < min_num_images:
     raise Exception('Many fewer images than expected: %d < %d' %
                     (num_images, min_num_images))
-    
+
   print('Full dataset tensor:', dataset.shape)
   print('Mean:', np.mean(dataset))
   print('Standard deviation:', np.std(dataset))
   return dataset
-        
+
 def maybe_pickle(data_folders, min_num_images_per_class, force=False):
   dataset_names = []
   for folder in data_folders:
@@ -133,8 +133,13 @@ def maybe_pickle(data_folders, min_num_images_per_class, force=False):
           pickle.dump(dataset, f, pickle.HIGHEST_PROTOCOL)
       except Exception as e:
         print('Unable to save data to', set_filename, ':', e)
-  
+
   return dataset_names
 
 train_datasets = maybe_pickle(train_folders, 45000)
 test_datasets = maybe_pickle(test_folders, 1800)
+
+#for display graphs inline in python notebook
+%matplotlib inline
+
+
