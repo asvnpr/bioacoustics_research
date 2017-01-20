@@ -6,3 +6,4 @@ IPython
 six
 Pillow
 jupyter
+tensorflow
