@@ -13,9 +13,9 @@ You'll probably have some missing dependencies. If so, you can run:
 at the root of this repo.
 
 As of January 19, 2017, Jupyter notebook is displaying a kernel error on macOS 10.12 if python3.6 is your only python3.X version since it's looking for python3.5.
-If you're in similar situation you can solve this by:
+If you're in a similar situation you can solve this by:
 * Using a homebrew tap (such as [this one](https://github.com/zoidbergwill/homebrew-python))
-* runnin `ln -s /usr/local/opt/python35/bin/python3.5 /usr/local/opt/python3/bin/python3.5` if you used the above homebrew tap
+* running `ln -s /usr/local/opt/python35/bin/python3.5 /usr/local/opt/python3/bin/python3.5` if you used the above homebrew tap
 
 Now Jupyter should display no kernel errors.
 
