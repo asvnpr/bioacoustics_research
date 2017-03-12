@@ -4,11 +4,9 @@ Here I include:
 * specgram_gen.ipynb: Python 3 Jupyter Notebook to generate spectrogram and functions to obtain ROI of a spectrogram
 
 Requirement are:
-* pylab (specgram_gen)
-* ffmpeg (flac__convert)
-
-Run:
-`pip3 install pylab`
+* numpy
+* matplotlib
+* ffmpeg (convert_to_wav)
 
 Run: 
 `brew install ffmpeg`
