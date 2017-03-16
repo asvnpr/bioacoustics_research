@@ -1,0 +1,30 @@
+[
+    {"t_set":129,"name": "simple generated species1", "present":5,"not_present":5,"absent":25,"not_absent":25},
+    {"t_set":130,"name": "simple generated species2", "present":5,"not_present":5,"absent":25,"not_absent":25},
+    {"t_set":133,"name": "garbage species", "present":5,"not_present":5,"absent":25,"not_absent":25},
+    {"t_set":134,"name": "Eleutherodactylus cooki", "present":10,"not_present":10,"absent":9,"not_absent":9},
+    {"t_set":135,"name": "Epinephelus guttatus", "present":38,"not_present":38,"absent":38,"not_absent":38},
+    {"t_set":136,"name": "Percnostola lophotes", "present":25,"not_present":25,"absent":25,"not_absent":25},
+    {"t_set":137,"name": "Hypocnemis subflava", "present":35,"not_present":35,"absent":35,"not_absent":35},
+    {"t_set":138,"name": "Thamnophilus schistaceus", "present":15,"not_present":15,"absent":15,"not_absent":15},
+    {"t_set":139,"name": "Myrmeciza hemimelaena", "present":45,"not_present":45,"absent":45,"not_absent":45},
+    {"t_set":140,"name": "Mic_mar", "present":30,"not_present":30,"absent":10,"not_absent":10},
+    {"t_set":141,"name": "Basil_chry", "present":20,"not_present":20,"absent":10,"not_absent":10},
+    {"t_set":142,"name": "Myr_leu", "present":40,"not_present":40,"absent":40,"not_absent":40},
+    {"t_set":143,"name": "Bas_bis", "present":25,"not_present":25,"absent":25,"not_absent":25},
+    {"t_set":144,"name": "Lio_thor", "present":19,"not_present":19,"absent":19,"not_absent":19},
+    {"t_set":145,"name": "Chlo_carm", "present":28,"not_present":28,"absent":28,"not_absent":28},
+    {"t_set":146,"name": "Mega_guat", "present":4,"not_present":10,"absent":4,"not_absent":10},
+    {"t_set":147,"name": "Salt_gros", "present":17,"not_present":17,"absent":17,"not_absent":17},
+    {"t_set":148,"name": "Formicarius analis", "present":20,"not_present":20,"absent":20,"not_absent":20},
+    {"t_set":149,"name": "Dendroica angelae", "present":52,"not_present":70,"absent":70,"not_absent":52},
+    {"t_set":150,"name": "Megascops nudipes", "present":25,"not_present":25,"absent":25,"not_absent":25},
+    {"t_set":151,"name": "Eleutherodactylus coqui", "present":20,"not_present":6,"absent":21,"not_absent":6},
+    {"t_set":153,"name": "Incognitus primus", "present":11,"not_present":13,"absent":11,"not_absent":13},
+    {"t_set":152,"name": "Eleutherodactylus juanariveroi", "present":7,"not_present":10,"absent":7,"not_absent":11},
+    {"t_set":154,"name": "Eleutherodactylus cochranae", "present":15,"not_present":12,"absent":15,"not_absent":12},
+    {"t_set":155,"name": "Eleutherodactylus brittoni", "present":8,"not_present":10,"absent":9,"not_absent":11}
+]
+
+
+
