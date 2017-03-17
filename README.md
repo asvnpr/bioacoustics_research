@@ -6,12 +6,24 @@ I'm working with Dr. Carlos Corrada on the topics of species identification and 
 This repo will contain my work on the [Udacity Deep Learning Course](https://www.udacity.com/course/deep-learning--ud730)  
 and code I wrote to tackle our research tasks.  
 
-You can find more thorough instructions in the included READMEs in the appropriate folders, but dependencies are:
+You can find more details in the appropriate READMEs, but all code is written with Python 3 and you can use pip3 to install:
 
-* python3
-* pylab / numpy+matplotlib
-* jupyter notebook
-* tensorflow
-* ffmpeg (depends)
+*****Research code dependencies**:
+- pylab
+- wave
+- openpyxl
+- pyyaml
 
+**Course code requirements **:
+- matplotlib
+- numpy
+- ipython
+- scipy
+- sklearn
+- six
+- jupyter
+- tensorflow
+- Pillow
 
+If you want to install all dependencies just run: 
+`pip3 install -r requirements.txt`
