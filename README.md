@@ -8,13 +8,13 @@ and code I wrote to tackle our research tasks.
 
 You can find more details in the appropriate READMEs, but all code is written with Python 3 and you can use pip3 to install:
 
-*****Research code dependencies**:
+**Research code dependencies**:
 - pylab
 - wave
 - openpyxl
 - pyyaml
 
-**Course code requirements **:
+**Course code requirements**:
 - matplotlib
 - numpy
 - ipython
@@ -25,5 +25,5 @@ You can find more details in the appropriate READMEs, but all code is written wi
 - tensorflow
 - Pillow
 
-If you want to install all dependencies just run: 
+If you want to install all dependencies just run:  
 `pip3 install -r requirements.txt`
