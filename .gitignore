@@ -2,4 +2,8 @@ udacity_deep_learning_course/From\ Machine\ Learning\ to\ Deep\ Learning/notMNIS
 Research/dataset/recordings/*
 Research/dataset/arbimon2-jobs-stable/*
 Research/dataset/pickle_data*
+Research/dataset/arbimonTest1.pickle
+Research/dataset/pickle_data/ 
+Research/dataset/squared_spectrogram_roi_dataset/ 
+Research/dataset/validationsAndROIs.xlsx 
 .DS_Store
