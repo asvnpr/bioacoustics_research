@@ -6,5 +6,12 @@ Research/dataset/arbimonTest1.pickle
 Research/dataset/pickle_data/ 
 Research/dataset/squared_spectrogram_roi_dataset/ 
 Research/dataset/validationsAndROIs.xlsx 
+Research/dataset/processed_roi_dataset/
+Research/dataset/subclasess_pickle_data/
+Research/dataset/binary_pickles/
+Research/dataset/arbimonBalanced.pickle
+Research/dataset/arbimon_bin_datasets/
+Research/dataset/NN_results.txt
+Research/dataset/spectrogram_roi_dataset.tar.bz2
+udacity_machine_learning_course/*
 .DS_Store
-udacity_machine_learning_course/
